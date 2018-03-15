@@ -8,12 +8,16 @@ import javax.ws.rs.Path;
 // multiple versions deployed at once. That way consumers don't need to upgrade
 // right away if things are working for them.
 @Path("asdf")
-public class helloworld {
+public class Helloworld {
     @GET
     @Consumes("text/plain")
     @Produces("text/plain")
     @Path("qwer")
     public String helloworld() {
-        return "helloworld!";
+        return "Helloworld!";
+    }
+
+    public String test(){
+        return "test!";
     }
 }
