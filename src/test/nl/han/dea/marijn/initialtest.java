@@ -1,5 +1,6 @@
 package nl.han.dea.marijn;
 
+import nl.han.dea.marijn.clientpaths.Helloworld;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Beroepsproduct" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.airhacks:jaxrs-cors:0.0.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Beroepsproduct/META-INF/MANIFEST.MF" />
