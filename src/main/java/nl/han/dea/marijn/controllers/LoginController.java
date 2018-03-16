@@ -1,4 +1,4 @@
-package nl.han.dea.marijn.clientpaths;
+package nl.han.dea.marijn.controllers;
 import nl.han.dea.marijn.dtos.LoginRequest;
 import nl.han.dea.marijn.dtos.LoginResponse;
 
@@ -7,26 +7,14 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("login")
-public class Helloworld {
-    @GET
-    @Consumes("text/plain")
-    @Produces("text/plain")
-    @Path("qwer")
-    public String helloworld() {
-        return "Helloworld!";
-    }
-
-    public String test(){
-        return "test!";
-    }
-
+public class LoginController {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(LoginRequest request){
         LoginResponse loginResponse = new LoginResponse();
 
-        if(request.getUser().equals("meron")){
+        if("meron".equals(request.getUser())){
             loginResponse.setUser("meron");
             loginResponse.setToken("jas;lkdfjalksdfj;kla");
 
