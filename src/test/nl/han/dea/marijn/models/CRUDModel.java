@@ -6,9 +6,7 @@ import org.junit.Test;
 
 public interface CRUDModel {
 
-    void create();
-
-    void read();
+    void createAndRead();
 
     void update();
 

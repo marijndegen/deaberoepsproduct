@@ -38,7 +38,7 @@ public class SubscriptionServiceImplementation implements SubscriptionService {
         return subscriptions;
     }
 
-    private User retrieveUser(String token){
+    public User retrieveUser(String token){
         JDBC.start();
         User user = User.findFirst("token = ? ", token);
         JDBC.stop();

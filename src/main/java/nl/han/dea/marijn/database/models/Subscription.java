@@ -6,4 +6,5 @@ import org.javalite.activejdbc.annotations.Table;
 
 @Table("subscriptions")
 public class Subscription extends Model {
+
 }

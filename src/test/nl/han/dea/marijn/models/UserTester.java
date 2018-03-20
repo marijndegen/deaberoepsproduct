@@ -7,7 +7,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 public class UserTester implements CRUDModel{
+
+    private User user;
 
     @Before
     public void init(){
@@ -15,42 +19,52 @@ public class UserTester implements CRUDModel{
     }
 
     @Test
-    public void create() {
-        User user = new User();
-        user.set("user", "marijn");
-        user.set("password", "qwerasdfuiop");
-        user.save();
-
-        User userToCheck = new User();
-        userToCheck = user.findById(user.get("id"));
-        Assert.assertEquals( "qwerasdfuiop", userToCheck.get("password"));
-        user.delete();
-    }
-
-    @Test
-    public void read() {
-        User user = new User();
-        user.set("user", "marijn");
-        user.set("password", "qwerasdfuiop");
-        user.save();
-
-        User secondUser = User.findFirst("user = ?", "marijn");
-        System.out.println(secondUser.get("password"));
-        secondUser.delete();
+    public void createAndRead() {
+        createUser();
+        insertUserData();
+        updateUser();
+        assertEquals(user.get("password"), "qwerasdfuiop");
+        deleteUser();
     }
 
     @Test
     public void update() {
-
+        createUser();
+        insertUserData();
+        updateUser();
+        user.set("password", "asdf");
+        updateUser();
+        assertEquals(user.get("password"), "asdf");
+        deleteUser();
     }
 
     @Test
     public void delete() {
-
+        createUser();
+        insertUserData();
+        updateUser();
+        deleteUser();
     }
 
     @After
     public void destroy(){
         JDBC.stop();
+    }
+
+    private void createUser(){
+        user = new User();
+    }
+
+    private void insertUserData(){
+        user.set("user", "kobie");
+        user.set("password", "qwerasdfuiop");
+    }
+
+    private void updateUser(){
+        user.saveIt();
+    }
+
+    private void deleteUser(){
+        user.delete();
     }
 }

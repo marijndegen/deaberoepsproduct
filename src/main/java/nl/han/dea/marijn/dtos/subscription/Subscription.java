@@ -1,4 +1,4 @@
-package nl.han.dea.marijn.dtos.Subscriptions;
+package nl.han.dea.marijn.dtos.subscription;
 
 public class Subscription {
     private int id;

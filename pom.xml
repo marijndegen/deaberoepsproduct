@@ -45,11 +45,11 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <dependency><!--For junit in combination with @Inject-->
+<!--        <dependency>&lt;!&ndash;For junit in combination with @Inject&ndash;&gt;
             <groupId>org.jboss.arquillian.container</groupId>
             <artifactId>arquillian-container-spi</artifactId>
             <version>1.4.0.Final</version>
-        </dependency>
+        </dependency>-->
 
         <!--Tomee dependencies -->
         <dependency>

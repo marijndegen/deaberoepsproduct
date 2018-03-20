@@ -1,10 +1,9 @@
 package nl.han.dea.marijn.controllers;
-import nl.han.dea.marijn.dtos.Login.LoginRequest;
-import nl.han.dea.marijn.dtos.Login.LoginResponse;
+import nl.han.dea.marijn.dtos.login.LoginRequest;
+import nl.han.dea.marijn.dtos.login.LoginResponse;
 import nl.han.dea.marijn.services.login.LoginService;
 import nl.han.dea.marijn.services.login.LoginServiceImplementation;
 
-import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

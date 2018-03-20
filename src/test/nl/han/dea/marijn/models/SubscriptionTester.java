@@ -11,57 +11,84 @@ import static org.junit.Assert.*;
 
 public class SubscriptionTester implements CRUDModel {
 
+    private Subscription subscription;
+    
     @Before
     public void init(){
         JDBC.start();
     }
 
     @Test
-    public void create() {
-        Subscription subToCreate = new Subscription();
-        subToCreate.set("provider", "vodafone");
-        subToCreate.set("service", "heel snel internet abbonement!!");
-        subToCreate.set("price", 100.30);
-        subToCreate.set("shareable", 1);
-        subToCreate.save();
+    public void createAndRead() {
+        createSubscription();
+        insertSubscriptionData();
+        updateSubscription();
 
         Subscription subToCheck = new Subscription();
-        subToCheck = subToCheck.findById(subToCreate.get("id"));
+        subToCheck = subToCheck.findById(subscription.get("id"));
         assertEquals("vodafone", subToCheck.get("provider"));
-        subToCreate.delete();
-    }
-
-    @Test
-    public void read() {
-
+        deleteSubscription();
     }
 
     @Test
     public void update() {
+        createSubscription();
+        insertSubscriptionData();
+        updateSubscription();
+
+        Subscription subToCheck = new Subscription();
+        subToCheck = subToCheck.findById(subscription.get("id"));
+        subToCheck.set("provider", "ziggo");
+        subToCheck.saveIt();
+        assertEquals("ziggo", subToCheck.get("provider"));
+        deleteSubscription();
 
     }
 
     @Test
-    public void delete() {
-
+    public void delete(){
+        createSubscription();
+        insertSubscriptionData();
+        update();
+        deleteSubscription();
     }
+
+
 
     @Test(expected = DBException.class)
     public void createWithWrongSubscription(){
-        Subscription subToCreate = new Subscription();
-        subToCreate.set("provider", "asdf");
-        subToCreate.set("service", "heel snel internet abbonement!!");
-        subToCreate.set("price", 100.30);
-        subToCreate.set("shareable", 1);
-        subToCreate.save();
+        subscription.set("provider", "asdf");
+        subscription.set("service", "heel snel internet abbonement!!");
+        subscription.set("price", 100.30);
+        subscription.set("shareable", 1);
+        subscription.saveIt();
 
         Subscription subToCheck = new Subscription();
-        subToCheck = subToCheck.findById(subToCreate.get("id"));
+        subToCheck = subToCheck.findById(subscription.get("id"));
         assertEquals("vodafone", subToCheck.get("provider"));
     }
 
     @After
     public void destroy(){
         JDBC.stop();
+    }
+
+    private void createSubscription(){
+        subscription = new Subscription();
+    }
+
+    private void insertSubscriptionData(){
+        subscription.set("provider", "vodafone");
+        subscription.set("service", "heel snel internet abbonement!!");
+        subscription.set("price", 100.30);
+        subscription.set("shareable", 1);
+    }
+
+    private void updateSubscription(){
+        subscription.saveIt();
+    }
+
+    private void deleteSubscription(){
+        subscription.delete();
     }
 }
