@@ -2,6 +2,7 @@ package nl.han.dea.marijn.controllers;
 import nl.han.dea.marijn.dtos.Login.LoginRequest;
 import nl.han.dea.marijn.dtos.Login.LoginResponse;
 import nl.han.dea.marijn.services.login.LoginService;
+import nl.han.dea.marijn.services.login.LoginServiceImplementation;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -11,11 +12,11 @@ import javax.ws.rs.core.Response;
 @Path("login")
 public class LoginController {
 
-    @Inject
-    private LoginService loginService;
+//    @Inject
+    private LoginService loginService = new LoginServiceImplementation();
 
-    @Inject
-    private LoginResponse loginResponse;
+//    @Inject
+    private LoginResponse loginResponse = new LoginResponse();
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)

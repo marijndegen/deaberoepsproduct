@@ -1,10 +1,12 @@
 package nl.han.dea.marijn.dtos.Subscriptions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SubscriptionResponse {
-    private List<Subscription> abonnementen;
-    private double totalPrice;
+    /*Arraylist niet geinstantieerd, koste 2 uur om de nullpointer op te zoeken*/
+    private List<Subscription> abonnementen = new ArrayList<>();
+    private double totalPrice = 0;
 
     public void addSubscription(Subscription subscription){
         abonnementen.add(subscription);

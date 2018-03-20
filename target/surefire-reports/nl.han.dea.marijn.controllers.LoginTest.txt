@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: nl.han.dea.marijn.controllers.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.262 sec <<< FAILURE!
-emptyRequestReturnsState200(nl.han.dea.marijn.controllers.LoginTest)  Time elapsed: 0.031 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.234 sec <<< FAILURE!
+emptyRequestReturnsState200(nl.han.dea.marijn.controllers.LoginTest)  Time elapsed: 0.016 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nl.han.dea.marijn.controllers.LoginController.login(LoginController.java:26)
 	at nl.han.dea.marijn.controllers.LoginTest.emptyRequestReturnsState200(LoginTest.java:35)
@@ -36,7 +36,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-emptyRequestReturnsState403(nl.han.dea.marijn.controllers.LoginTest)  Time elapsed: 0.007 sec  <<< ERROR!
+emptyRequestReturnsState403(nl.han.dea.marijn.controllers.LoginTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.NullPointerException
 	at nl.han.dea.marijn.controllers.LoginController.login(LoginController.java:26)
 	at nl.han.dea.marijn.controllers.LoginTest.emptyRequestReturnsState403(LoginTest.java:17)

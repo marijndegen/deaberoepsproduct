@@ -3,14 +3,15 @@ package nl.han.dea.marijn.services.login;
 import nl.han.dea.marijn.database.config.JDBC;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.services.token.TokenGenerator;
+import nl.han.dea.marijn.services.token.UUIDGenerator;
 
 import javax.inject.Inject;
 
 public class LoginServiceImplementation implements LoginService {
     private User user;
 
-    @Inject
-    private TokenGenerator generator;
+//    @Inject
+    private TokenGenerator generator = new UUIDGenerator();
 
     public boolean doLogin(String username, String password){
         JDBC.start();

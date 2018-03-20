@@ -1,8 +1,10 @@
 package nl.han.dea.marijn.controllers;
 
 import nl.han.dea.marijn.dtos.Login.LoginRequest;
+import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import javax.ws.rs.core.Response;
 
