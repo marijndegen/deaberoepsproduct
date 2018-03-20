@@ -1,4 +1,4 @@
-package nl.han.dea.marijn;
+package nl.han.dea.marijn.controllers;
 
 import nl.han.dea.marijn.controllers.LoginController;
 import nl.han.dea.marijn.dtos.LoginRequest;

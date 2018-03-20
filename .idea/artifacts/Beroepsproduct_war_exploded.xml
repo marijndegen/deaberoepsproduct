@@ -20,6 +20,15 @@
           <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.4.0-b34" />
           <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.4.0-b34" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+          <element id="library" level="project" name="Maven: org.javalite:activejdbc:2.0" />
+          <element id="library" level="project" name="Maven: org.javalite:javalite-common:2.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.javalite:app-config:2.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
         </element>
       </element>
       <element id="directory" name="META-INF">

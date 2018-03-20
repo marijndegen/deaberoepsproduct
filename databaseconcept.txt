@@ -1,0 +1,25 @@
+database: vodagone
+gebruiker:vodagone
+password: myawesomepasswordyall
+
+table::Users
+int id
+string user
+string password
+string token
+datetime datelastlogin
+
+table::ActiveSubscriptions
+int id
+user_id
+subscription_id
+startDate
+verdubbeling
+status
+
+table::Subscriptions
+id
+provider
+service
+price
+shareable
