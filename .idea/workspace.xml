@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81ac8-c6fc-4da6-8200-873a8adb58ed" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Beroepsproduct_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Beroepsproduct_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Beroepsproduct.iml" afterPath="$PROJECT_DIR$/Beroepsproduct.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/controllers/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/controllers/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/han/dea/marijn/LoginTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/han/dea/marijn/initialtest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginServiceImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceImplementation.java" />
+      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/LoginService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/LoginServiceImplementation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/controllers/LoginController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/LoginService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/LoginServiceImplementation.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,43 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubscriptionTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/SubscriptionTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTester.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/UserTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+            <state relative-caret-position="322">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,24 +52,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServiceImplementation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginServiceImplementation.java">
+      <file leaf-file-name="LoginServiceImplementation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,14 +130,19 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/S.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/ActiveSubscriptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/Subscriptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginService.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/CRUDModel.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/SubscriptionTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginServiceImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/UserTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/token/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/token/UUIDGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/token/TokenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceImplementation.java" />
       </list>
     </option>
   </component>
@@ -228,7 +194,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="40" />
     <option name="width" value="697" />
@@ -305,17 +271,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marijn" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Beroepsproduct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beroepsproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marijn" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Beroepsproduct" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +281,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marijn" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="token" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Beroepsproduct" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +344,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="idea.background.editor" value="C:\Users\HBO\Downloads\File_Dark-Background-Wallpaper.jpg,0,plain,center" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -419,7 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTester.read">
+  <component name="RunManager" selected="TomEE Server.BeroepsproductLocal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -815,7 +773,7 @@
       <workItem from="1521240195412" duration="6045000" />
       <workItem from="1521547849679" duration="191000" />
       <workItem from="1521548267481" duration="6264000" />
-      <workItem from="1521554765271" duration="854000" />
+      <workItem from="1521554765271" duration="3083000" />
     </task>
     <servers />
   </component>
@@ -852,10 +810,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35574000" />
+    <option name="totallyTimeSpent" value="37803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="40" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -877,8 +835,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39565945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38980263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46710527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5098336" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -954,28 +912,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/LoginResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1118,6 +1054,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,13 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javalite/activejdbc/2.0/activejdbc-2.0.jar!/org/javalite/activejdbc/Model.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1486" column="30" lean-forward="false" selection-start-line="1486" selection-start-column="30" selection-end-line="1486" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/javalite/activejdbc/2.0/activejdbc-2.0.jar!/org/javalite/activejdbc/ModelDelegate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1193,16 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1211,9 +1131,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/UserTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/SubscriptionTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
+        <state relative-caret-position="-113">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1225,55 +1178,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/LoginRequest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/javalite/activejdbc/2.0/activejdbc-2.0.jar!/org/javalite/activejdbc/Model.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="1061" column="18" lean-forward="false" selection-start-line="1061" selection-start-column="18" selection-end-line="1061" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginServiceImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/LoginService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/token/TokenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        <state relative-caret-position="322">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/UserTester.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/token/UUIDGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
           </folding>
         </state>
       </provider>

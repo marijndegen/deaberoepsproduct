@@ -1,9 +1,8 @@
 package nl.han.dea.marijn.controllers;
-import nl.han.dea.marijn.database.config.JDBC;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.dtos.LoginRequest;
 import nl.han.dea.marijn.dtos.LoginResponse;
-import nl.han.dea.marijn.services.LoginService;
+import nl.han.dea.marijn.services.login.LoginService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -16,16 +15,16 @@ public class LoginController {
     @Inject
     private LoginService loginService;
 
+    @Inject
+    private LoginResponse loginResponse;
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(LoginRequest request){
-        LoginResponse loginResponse = new LoginResponse();
-
         if(loginService.doLogin(request.getUser(), request.getPassword())){
-            loginResponse.setUser("meron");
-            loginResponse.setToken("jas;lkdfjalksdfj;kla");
-
+            loginResponse.setUser(loginService.getUserName());
+            loginResponse.setToken(loginService.getToken());
             return Response.ok().entity(loginResponse).build();
         }else{
             return Response.status(403).build();
