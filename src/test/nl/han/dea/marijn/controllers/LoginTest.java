@@ -1,7 +1,6 @@
 package nl.han.dea.marijn.controllers;
 
-import nl.han.dea.marijn.controllers.LoginController;
-import nl.han.dea.marijn.dtos.LoginRequest;
+import nl.han.dea.marijn.dtos.Login.LoginRequest;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -27,6 +26,9 @@ public class LoginTest {
         LoginRequest rq = new LoginRequest();
         rq.setUser("meron");
         rq.setPassword("asdfasdf");
+
+        System.out.println(rq.getUser());
+        System.out.println(rq.getPassword());
 
         LoginController loginEndpoint = new LoginController();
 

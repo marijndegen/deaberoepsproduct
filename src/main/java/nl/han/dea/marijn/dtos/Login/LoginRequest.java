@@ -1,4 +1,4 @@
-package nl.han.dea.marijn.dtos;
+package nl.han.dea.marijn.dtos.Login;
 
 public class LoginRequest {
 

@@ -1,7 +1,6 @@
 package nl.han.dea.marijn.controllers;
-import nl.han.dea.marijn.database.models.User;
-import nl.han.dea.marijn.dtos.LoginRequest;
-import nl.han.dea.marijn.dtos.LoginResponse;
+import nl.han.dea.marijn.dtos.Login.LoginRequest;
+import nl.han.dea.marijn.dtos.Login.LoginResponse;
 import nl.han.dea.marijn.services.login.LoginService;
 
 import javax.inject.Inject;
@@ -22,6 +21,8 @@ public class LoginController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(LoginRequest request){
+        System.out.println("Trying to login user " + request.getUser() + " with secret " + request.getPassword());
+        System.out.println(loginService);
         if(loginService.doLogin(request.getUser(), request.getPassword())){
             loginResponse.setUser(loginService.getUserName());
             loginResponse.setToken(loginService.getToken());
