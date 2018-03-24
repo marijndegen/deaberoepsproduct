@@ -6,15 +6,16 @@ import nl.han.dea.marijn.database.models.User;
 import java.util.List;
 
 public interface SubscriptionService {
+    User retrieveUser(String token);
+
     boolean isValidUser(String token);
 
     void loadUser(String token);
 
-    List<Subscription> subscriptions();
+    List<Subscription> activeSubscriptions();
 
-    User retrieveUser(String token);
+    List<nl.han.dea.marijn.dtos.subscription.Subscription> convertToDataMapper(List<Subscription> subscriptions);
 
-
-
+    double calculateTotalAmount();
 
 }

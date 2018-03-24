@@ -21,8 +21,7 @@ public class LoginController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(LoginRequest request){
-        System.out.println("Trying to login user " + request.getUser() + " with secret " + request.getPassword());
-        System.out.println(loginService);
+//        System.out.println("Trying to login user " + request.getUser() + " with secret " + request.getPassword());
         if(loginService.doLogin(request.getUser(), request.getPassword())){
             loginResponse.setUser(loginService.getUserName());
             loginResponse.setToken(loginService.getToken());
