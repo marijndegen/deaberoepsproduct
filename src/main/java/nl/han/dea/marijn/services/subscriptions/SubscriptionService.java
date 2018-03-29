@@ -13,9 +13,9 @@ public interface SubscriptionService {
 
     void loadUser(String token);
 
-    List<Subscription> activeSubscriptions();
+    List<nl.han.dea.marijn.dtos.subscription.Subscription> activeSubscriptions();
 
-    List<nl.han.dea.marijn.dtos.subscription.Subscription> convertToDataMapper(List<Subscription> subscriptions);
+//    List<nl.han.dea.marijn.dtos.subscription.Subscription> convertToDataMapper(List<Subscription> subscriptions);
 
     double calculateTotalAmount();
 

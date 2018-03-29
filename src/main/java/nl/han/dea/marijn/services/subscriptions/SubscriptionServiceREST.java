@@ -5,7 +5,6 @@ import nl.han.dea.marijn.database.models.ActiveSubscription;
 import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
-import org.javalite.activejdbc.Base;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,13 +24,12 @@ public class SubscriptionServiceREST implements SubscriptionService {
     }
 
 
-    public List<Subscription> activeSubscriptions() {
+/*    public List<Subscription> activeSubscriptions() {
         JDBC.start();
         List<ActiveSubscription> activeSubscriptions = ActiveSubscription.where("user_id = ?", user.getId());
         List<Subscription> subscriptions = new ArrayList<>();
         for (ActiveSubscription activeSubscription:
              activeSubscriptions) {
-            System.out.println(Subscription.findById(activeSubscription.get("subscription_id")));
             subscriptions.add(Subscription.findById(activeSubscription.get("subscription_id")));
         }
         JDBC.stop();
@@ -45,19 +43,23 @@ public class SubscriptionServiceREST implements SubscriptionService {
             subscriptionDataTransfer.add(new nl.han.dea.marijn.dtos.subscription.Subscription(subscription));
         }
         return subscriptionDataTransfer;
+    }*/
+    public List<nl.han.dea.marijn.dtos.subscription.Subscription> activeSubscriptions(){
+        List<nl.han.dea.marijn.dtos.subscription.Subscription> dtosSubscriptions = new ArrayList<>();
+        JDBC.start();
+        List<Subscription> subscriptions = Subscription.getUserSubscriptions((Integer) this.user.getId());
+        for (Subscription subscription: subscriptions) {
+            dtosSubscriptions.add(new nl.han.dea.marijn.dtos.subscription.Subscription(subscription)); //Convert the fetched model to a dtos object.
+        }
+        JDBC.stop();
+        return dtosSubscriptions;
     }
 
     public double calculateTotalAmount() {
         JDBC.start();
-        String query = "SELECT SUM(subscriptions.price)\n" +
-                "FROM users\n" +
-                "INNER JOIN activesubscriptions ON users.id = activesubscriptions.user_id\n" +
-                "INNER JOIN subscriptions ON activesubscriptions.subscription_id = subscriptions.id\n" +
-                "GROUP BY users.id\n" +
-                "HAVING users.id = ?";
-        Object amount = Base.firstCell(query, this.user.get("id"));
+        double amount = user.calculateTotalAmount();
         JDBC.stop();
-        return (double) amount;
+        return amount;
     }
 
     //todo hier een dto terug geven.

@@ -1,7 +1,9 @@
 package nl.han.dea.marijn.database.models;
 
+import nl.han.dea.marijn.database.config.JDBC;
 import nl.han.dea.marijn.database.enums.Status;
 import nl.han.dea.marijn.database.enums.Verdubbeling;
+import org.javalite.activejdbc.Base;
 import org.javalite.activejdbc.Model;
 import org.javalite.activejdbc.annotations.Table;
 

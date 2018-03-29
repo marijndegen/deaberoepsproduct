@@ -1,5 +1,6 @@
 package nl.han.dea.marijn.controllers;
 
+import nl.han.dea.marijn.database.config.JDBC;
 import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
 import nl.han.dea.marijn.dtos.subscription.subscriptionslist.ListedSubscriptionResponse;
@@ -38,7 +39,6 @@ public class SubscriptionsController {
         if(!subscriptionsService.isValidUser(token)){
             return Response.status(401).build();
         }
-
         subscriptionsService.loadUser(token);
         subscriptionsService.addActiveSubscription(request);
         return giveUserSubscriptionList(token);
@@ -48,10 +48,39 @@ public class SubscriptionsController {
     private Response giveUserSubscriptionList(String token){
         ListedSubscriptionResponse listedSubscriptionResponse = new ListedSubscriptionResponse();
         subscriptionsService.loadUser(token);
-        List<Subscription> activeSubscriptions = subscriptionsService.activeSubscriptions();
-        listedSubscriptionResponse.addSubscriptions(subscriptionsService.convertToDataMapper(activeSubscriptions));
+//        List<Subscription> activeSubscriptions = subscriptionsService.activeSubscriptions();
+//        listedSubscriptionResponse.addSubscriptions(subscriptionsService.convertToDataMapper(activeSubscriptions));
+        listedSubscriptionResponse.addSubscriptions(subscriptionsService.activeSubscriptions());
         listedSubscriptionResponse.setTotalPrice(subscriptionsService.calculateTotalAmount());
+//        this.testFunctiontestFunction();
         return Response.ok().entity(listedSubscriptionResponse).build();
     }
+
+/*    private void testFunctiontestFunction(){
+        JDBC.start();
+        String sql = "SELECT subscriptions.* \n" +
+                "FROM activesubscriptions \n" +
+                "INNER JOIN subscriptions ON activesubscriptions.subscription_id = subscriptions.id \n" +
+                "WHERE activesubscriptions.user_id = 1";
+        Object result = Subscription.findBySQL(sql);
+
+        for (Subscription subscription: (List<Subscription>) result
+             ) {
+            System.out.println(subscription.get("service"));
+        }
+
+        System.out.println(result);
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        System.out.println("-----------------------");
+        Subscription.findAll();
+        JDBC.stop();
+
+    }*/
 
 }
