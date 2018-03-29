@@ -17,6 +17,7 @@ public class Subscription {
 
 
     public void setSubscription(nl.han.dea.marijn.database.models.Subscription s){
+//        System.out.print(s);
         id = (Integer) s.get("id");
         aanbieder = (String) s.get("provider");
         dienst = (String) s.get("service");

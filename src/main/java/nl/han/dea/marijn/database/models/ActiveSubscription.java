@@ -10,7 +10,7 @@ import java.util.Calendar;
 
 @Table("activesubscriptions")
 public class ActiveSubscription extends Model {
-    public static void makeNewStandardActiveSubscription(User user, Subscription subscription){
+    public static ActiveSubscription makeNewStandardActiveSubscription(User user, Subscription subscription){
         int userId = (int) user.getId();
         int subscriptionId = (int) subscription.getId();
         String startDate = new SimpleDateFormat("yyyyMMdd").format(Calendar.getInstance().getTime());
@@ -24,5 +24,6 @@ public class ActiveSubscription extends Model {
         activeSubscription.set("dubbel", dubbel);
         activeSubscription.set("status", status);
         activeSubscription.save();
+        return activeSubscription;
     }
 }
