@@ -16,7 +16,6 @@ public class ActiveSubscription {
     private String status;          //Enum
 
     public ActiveSubscription(nl.han.dea.marijn.database.models.ActiveSubscription activeSubscription){
-        System.out.println(activeSubscription.get("id"));
         this.id = (long) activeSubscription.get("id");
         this.user_id = (Integer) activeSubscription.get("user_id");
         this.subscription_id = (Integer) activeSubscription.get("subscription_id");

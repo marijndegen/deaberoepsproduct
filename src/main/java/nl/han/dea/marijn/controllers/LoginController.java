@@ -4,6 +4,7 @@ import nl.han.dea.marijn.dtos.login.LoginResponse;
 import nl.han.dea.marijn.services.login.LoginService;
 import nl.han.dea.marijn.services.login.LoginServiceREST;
 
+import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -11,10 +12,10 @@ import javax.ws.rs.core.Response;
 @Path("login")
 public class LoginController {
 
-//    @Inject TODO
+    @Inject
     private LoginService loginService = new LoginServiceREST();
 
-//    @Inject TODO
+    @Inject
     private LoginResponse loginResponse = new LoginResponse();
 
     @POST

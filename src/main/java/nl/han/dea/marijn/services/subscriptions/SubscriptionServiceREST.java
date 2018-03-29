@@ -14,36 +14,14 @@ public class SubscriptionServiceREST implements SubscriptionService {
     private User user;
 
     public boolean isValidUser(String token) {
-        User user = this.retrieveUser(token);
-
-        return (user instanceof User);
+        loadUser(token);
+        return (user != null);
     }
 
     public void loadUser(String token) {
         user = this.retrieveUser(token);
     }
 
-
-/*    public List<Subscription> activeSubscriptions() {
-        JDBC.start();
-        List<ActiveSubscription> activeSubscriptions = ActiveSubscription.where("user_id = ?", user.getId());
-        List<Subscription> subscriptions = new ArrayList<>();
-        for (ActiveSubscription activeSubscription:
-             activeSubscriptions) {
-            subscriptions.add(Subscription.findById(activeSubscription.get("subscription_id")));
-        }
-        JDBC.stop();
-        return subscriptions;
-    }
-
-    public List<nl.han.dea.marijn.dtos.subscription.Subscription> convertToDataMapper(List<Subscription> subscriptionModels) {
-        List<nl.han.dea.marijn.dtos.subscription.Subscription> subscriptionDataTransfer = new ArrayList<>();
-        for (Subscription subscription:
-                subscriptionModels) {
-            subscriptionDataTransfer.add(new nl.han.dea.marijn.dtos.subscription.Subscription(subscription));
-        }
-        return subscriptionDataTransfer;
-    }*/
     public List<nl.han.dea.marijn.dtos.subscription.Subscription> activeSubscriptions(){
         List<nl.han.dea.marijn.dtos.subscription.Subscription> dtosSubscriptions = new ArrayList<>();
         JDBC.start();
@@ -62,7 +40,6 @@ public class SubscriptionServiceREST implements SubscriptionService {
         return amount;
     }
 
-    //todo hier een dto terug geven.
     public nl.han.dea.marijn.dtos.subscription.ActiveSubscription addActiveSubscription(AddMySubscriptionRequest request) {
         JDBC.start();
         Subscription subscription = Subscription.findById(request.getId());
@@ -71,7 +48,7 @@ public class SubscriptionServiceREST implements SubscriptionService {
         return new nl.han.dea.marijn.dtos.subscription.ActiveSubscription(activeSubscription);
     }
 
-    public User retrieveUser(String token){
+    private User retrieveUser(String token){
         JDBC.start();
         User user = User.findFirst("token = ? ", token);
         JDBC.stop();
