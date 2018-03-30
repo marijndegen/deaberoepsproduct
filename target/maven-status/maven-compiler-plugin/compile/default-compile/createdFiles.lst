@@ -1,12 +1,11 @@
+nl\han\dea\marijn\dtos\subscription\subscriptionslist\ListedActiveSubscriptionResponse.class
 nl\han\dea\marijn\database\enums\Verdubbeling.class
 nl\han\dea\marijn\services\token\TokenGenerator.class
 nl\han\dea\marijn\database\models\Subscription.class
 nl\han\dea\marijn\database\enums\Status.class
 nl\han\dea\marijn\services\token\UUIDGenerator.class
-nl\han\dea\marijn\dtos\subscription\subscriptionslist\ListedSubscriptionResponse.class
 nl\han\dea\marijn\controllers\UserController.class
 nl\han\dea\marijn\database\models\User.class
-nl\han\dea\marijn\dtos\subscription\ActiveSubscription.class
 nl\han\dea\marijn\dtos\subscription\subscription\AddMySubscriptionRequest.class
 nl\han\dea\marijn\services\subscriptions\SubscriptionServiceREST.class
 nl\han\dea\marijn\database\models\ActiveSubscription.class

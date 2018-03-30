@@ -76,14 +76,19 @@ public class SubscriptionServiceREST implements SubscriptionService {
         }
     }
 
+    public List<nl.han.dea.marijn.dtos.subscription.Subscription> searchAllSubscriptions(String filter) {
+        JDBC.start();
+        List<nl.han.dea.marijn.dtos.subscription.Subscription> subscriptions = Subscription.searchSubscription(filter);
+        JDBC.stop();
+        return subscriptions;
+    }
+
     public Subscription getIndividualSubscription(int subscriptionId) {
         JDBC.start();
         Subscription subscription = Subscription.findById(subscriptionId);
         JDBC.stop();
         return subscription;
     }
-
-
 
     private User retrieveUser(String token){
         JDBC.start();

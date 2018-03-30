@@ -11,4 +11,12 @@ import java.util.Map;
 
 @Table("subscriptions")
 public class Subscription extends Model {
+    public static List<nl.han.dea.marijn.dtos.subscription.Subscription> searchSubscription(String filter) {
+        List<nl.han.dea.marijn.dtos.subscription.Subscription> subscriptions = new ArrayList<>();
+        List<Subscription> results = Subscription.where("subscriptions.service like ?", "%" + filter + "%");
+        for (Subscription subscription : results) {
+            subscriptions.add(new nl.han.dea.marijn.dtos.subscription.Subscription(subscription));
+        }
+        return subscriptions;
+    }
 }

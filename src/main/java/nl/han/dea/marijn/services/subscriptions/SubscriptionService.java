@@ -27,4 +27,6 @@ public interface SubscriptionService {
     void setSubscriptionInactive(ActiveSubscription activeSubscription);
 
     void setSubscriptionVerdubbeld(ActiveSubscription activeSubscription, Subscription subscription);
+
+    List<nl.han.dea.marijn.dtos.subscription.Subscription> searchAllSubscriptions(String filter);
 }

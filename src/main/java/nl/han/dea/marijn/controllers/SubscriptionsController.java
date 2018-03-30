@@ -1,10 +1,7 @@
 package nl.han.dea.marijn.controllers;
 
-import nl.han.dea.marijn.database.models.ActiveSubscription;
-import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
-import nl.han.dea.marijn.dtos.subscription.subscription.GetSubscriptionResponse;
-import nl.han.dea.marijn.dtos.subscription.subscriptionslist.ListedSubscriptionResponse;
+import nl.han.dea.marijn.dtos.subscription.subscriptionslist.ListedActiveSubscriptionResponse;
 import nl.han.dea.marijn.services.subscriptions.SubscriptionService;
 
 import javax.inject.Inject;
@@ -26,7 +23,7 @@ public class SubscriptionsController {
         if(!subscriptionsService.isValidUser(token)){
             return Response.status(401).build();
         }
-        return giveUserSubscriptionList(token);
+        return giveUserSubscriptionList();
     }
 
     @POST
@@ -37,14 +34,25 @@ public class SubscriptionsController {
             return Response.status(401).build();
         }
         subscriptionsService.addActiveSubscription(request);
-        return giveUserSubscriptionList(token);
-
+        return giveUserSubscriptionList();
     }
 
-    private Response giveUserSubscriptionList(String token){
-        ListedSubscriptionResponse listedSubscriptionResponse = new ListedSubscriptionResponse();
-        listedSubscriptionResponse.addSubscriptions(subscriptionsService.activeSubscriptions());
-        listedSubscriptionResponse.setTotalPrice(subscriptionsService.calculateTotalAmount());
-        return Response.ok().entity(listedSubscriptionResponse).build();
+    @Path("all")
+    @GET
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response searchAllSubscriptions(@QueryParam("token") String token, @QueryParam("filter") String filter){
+        if(!subscriptionsService.isValidUser(token)){
+            return Response.status(401).build();
+        }
+
+        return Response.ok().entity(subscriptionsService.searchAllSubscriptions(filter)).build();
+    }
+
+    private Response giveUserSubscriptionList(){
+        ListedActiveSubscriptionResponse listedActiveSubscriptionResponse = new ListedActiveSubscriptionResponse();
+        listedActiveSubscriptionResponse.addSubscriptions(subscriptionsService.activeSubscriptions());
+        listedActiveSubscriptionResponse.setTotalPrice(subscriptionsService.calculateTotalAmount());
+        return Response.ok().entity(listedActiveSubscriptionResponse).build();
     }
 }
