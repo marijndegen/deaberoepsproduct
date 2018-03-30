@@ -1,6 +1,8 @@
 package nl.han.dea.marijn.services.subscriptions;
 
 import nl.han.dea.marijn.database.config.JDBC;
+import nl.han.dea.marijn.database.enums.Status;
+import nl.han.dea.marijn.database.enums.Verdubbeling;
 import nl.han.dea.marijn.database.models.ActiveSubscription;
 import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.database.models.User;
@@ -23,14 +25,10 @@ public class SubscriptionServiceREST implements SubscriptionService {
     }
 
     public List<nl.han.dea.marijn.dtos.subscription.Subscription> activeSubscriptions(){
-        List<nl.han.dea.marijn.dtos.subscription.Subscription> dtosSubscriptions = new ArrayList<>();
         JDBC.start();
-        List<Subscription> subscriptions = Subscription.getUserSubscriptions((Integer) this.user.getId());
-        for (Subscription subscription: subscriptions) {
-            dtosSubscriptions.add(new nl.han.dea.marijn.dtos.subscription.Subscription(subscription)); //Convert the fetched model to a dtos object.
-        }
+        List<nl.han.dea.marijn.dtos.subscription.Subscription> subscriptions = ActiveSubscription.getActiveSubscriptions((Integer) user.getId());
         JDBC.stop();
-        return dtosSubscriptions;
+        return subscriptions;
     }
 
     public double calculateTotalAmount() {
@@ -40,13 +38,52 @@ public class SubscriptionServiceREST implements SubscriptionService {
         return amount;
     }
 
-    public nl.han.dea.marijn.dtos.subscription.ActiveSubscription addActiveSubscription(AddMySubscriptionRequest request) {
+    public void addActiveSubscription(AddMySubscriptionRequest request) {
         JDBC.start();
         Subscription subscription = Subscription.findById(request.getId());
-        ActiveSubscription activeSubscription = ActiveSubscription.makeNewStandardActiveSubscription(user, subscription);
+        ActiveSubscription.makeNewStandardActiveSubscription(user, subscription);
         JDBC.stop();
-        return new nl.han.dea.marijn.dtos.subscription.ActiveSubscription(activeSubscription);
     }
+
+    public ActiveSubscription getIndividualActiveSubscription(int activeSubscriptionId) {
+        JDBC.start();
+        ActiveSubscription activeSubscription = ActiveSubscription.findById(activeSubscriptionId);
+        JDBC.stop();
+        return activeSubscription;
+    }
+
+    public int getSubscriptionIdByActiveSubscription(ActiveSubscription activeSubscription) {
+        JDBC.start();
+        int subscriptionId = (Integer) activeSubscription.get("subscription_id");
+        JDBC.stop();
+        return subscriptionId;
+    }
+
+    public void setSubscriptionInactive(ActiveSubscription activeSubscription) {
+        JDBC.start();
+        activeSubscription.set("status", Status.OPGEZEGD.getEnumValue());
+        activeSubscription.save();
+        JDBC.stop();
+    }
+
+    public void setSubscriptionVerdubbeld(ActiveSubscription activeSubscription, Subscription subscription) {
+        boolean dubbelAble = (Boolean) subscription.get("dubbelable");
+        if(dubbelAble){
+            JDBC.start();
+            activeSubscription.set("dubbel", Verdubbeling.VERDUBBELD.getEnumValue());
+            activeSubscription.save();
+            JDBC.stop();
+        }
+    }
+
+    public Subscription getIndividualSubscription(int subscriptionId) {
+        JDBC.start();
+        Subscription subscription = Subscription.findById(subscriptionId);
+        JDBC.stop();
+        return subscription;
+    }
+
+
 
     private User retrieveUser(String token){
         JDBC.start();
