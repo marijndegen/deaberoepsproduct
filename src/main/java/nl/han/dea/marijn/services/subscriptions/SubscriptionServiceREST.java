@@ -8,7 +8,6 @@ import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SubscriptionServiceREST implements SubscriptionService {
@@ -33,6 +32,7 @@ public class SubscriptionServiceREST implements SubscriptionService {
 
     public double calculateTotalAmount() {
         JDBC.start();
+        System.out.println(user);
         double amount = user.calculateTotalAmount();
         JDBC.stop();
         return amount;
@@ -90,9 +90,17 @@ public class SubscriptionServiceREST implements SubscriptionService {
         return subscription;
     }
 
-    private User retrieveUser(String token){
+    public User retrieveUser(String token){
         JDBC.start();
         User user = User.findFirst("token = ? ", token);
+        JDBC.stop();
+        return user;
+    }
+
+    @Override
+    public User retrieveUser(int userId) {
+        JDBC.start();
+        User user = User.findById(userId);
         JDBC.stop();
         return user;
     }

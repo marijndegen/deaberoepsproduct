@@ -9,14 +9,22 @@ import java.util.List;
 @Table("users")
 public class User extends Model {
     public double calculateTotalAmount() {
-        String query = "SELECT SUM(subscriptions.price)\n" +
+        String query = "SELECT COUNT(*) AS 'numberOfSubscriptions' \n" +
+                "FROM activesubscriptions\n" +
+                "WHERE activesubscriptions.user_id = ?";
+            Object numberOfSumbscriptions = Base.firstCell(query, this.get("id"));
+            if((Long) numberOfSumbscriptions == 0){
+                return 0.0;
+            }
+
+        query = "SELECT SUM(subscriptions.price)\n" +
                 "FROM users\n" +
                 "INNER JOIN activesubscriptions ON users.id = activesubscriptions.user_id\n" +
                 "INNER JOIN subscriptions ON activesubscriptions.subscription_id = subscriptions.id\n" +
                 "GROUP BY users.id\n" +
                 "HAVING users.id = ?";
         Object amount = Base.firstCell(query, this.get("id"));
-        return (double) amount;
+        return (Double) amount;
     }
 
 
