@@ -6,7 +6,6 @@ import nl.han.dea.marijn.database.models.ActiveSubscription;
 import nl.han.dea.marijn.database.models.SharedSubscription;
 import nl.han.dea.marijn.database.models.User;
 
-import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;
 import java.util.List;
 

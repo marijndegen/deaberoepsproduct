@@ -10,8 +10,8 @@ import javax.inject.Inject;
 public class LoginServiceREST implements LoginService {
     private User user;
 
-//    @Inject
-    private TokenGenerator generator = new UUIDGenerator();
+    @Inject
+    private TokenGenerator generator;
 
     public boolean doLogin(String username, String password){
         JDBC.start();
