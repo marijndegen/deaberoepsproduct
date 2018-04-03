@@ -15,7 +15,6 @@ nl\han\dea\marijn\database\enums\KeyValueEnum.class
 nl\han\dea\marijn\services\login\LoginServiceREST.class
 nl\han\dea\marijn\services\users\UserService.class
 nl\han\dea\marijn\database\config\JDBC.class
-nl\han\dea\marijn\database\config\Config.class
 nl\han\dea\marijn\dtos\subscription\Subscription.class
 nl\han\dea\marijn\dtos\user\User.class
 nl\han\dea\marijn\controllers\LoginController.class
