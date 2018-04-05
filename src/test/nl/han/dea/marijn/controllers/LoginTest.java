@@ -1,41 +1,48 @@
-//package nl.han.dea.marijn.controllers;
-//
-//import nl.han.dea.marijn.dtos.login.LoginRequest;
-//import org.junit.Assert;
-//import org.junit.Test;
-//
-//import javax.ws.rs.core.Response;
-//
-//public class LoginTest {
-//
-//    @Test
-//    public void emptyRequestReturnsState403(){
-//        LoginRequest rq = new LoginRequest();
-//
-//        LoginController loginEndpoint = new LoginController();
-//
-//        Response resp = loginEndpoint.login(rq);
-//
-//        Assert.assertEquals(403, resp.getStatus());
-//
-//
-//    }
-//
-//    @Test
-//    public void emptyRequestReturnsState200(){
-//        LoginRequest rq = new LoginRequest();
-//        rq.setUser("meron");
-//        rq.setPassword("asdfasdf");
-//
-//        System.out.println(rq.getUser());
-//        System.out.println(rq.getPassword());
-//
-//        LoginController loginEndpoint = new LoginController();
-//
-//        Response resp = loginEndpoint.login(rq);
-//
-//        Assert.assertEquals(200, resp.getStatus());
-//
-//
-//    }
-//}
+package nl.han.dea.marijn.controllers;
+
+import nl.han.dea.marijn.dtos.login.LoginRequest;
+import nl.han.dea.marijn.services.login.LoginService;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+
+import javax.ws.rs.core.Response;
+import org.mockito.runners.MockitoJUnitRunner;
+
+@RunWith(MockitoJUnitRunner.class)
+public class LoginTest {
+
+    @Mock
+    private LoginService loginService;
+
+    @InjectMocks
+    private LoginController loginController;
+
+    @Test
+    public void emptyRequestReturnsState403(){
+        Mockito.when(loginService.doLogin("","")).thenReturn(false);
+        LoginRequest loginRequest = new LoginRequest();
+        loginRequest.setUser("");
+        loginRequest.setPassword("");
+        Response resp = loginController.login(loginRequest);
+        Mockito.verify(loginService, Mockito.times(1)).doLogin("","");
+        Assert.assertEquals(403, resp.getStatus());
+    }
+
+    @Test
+    public void successLogin200(){
+        String username = "bassie";
+        String password = "adriaan";
+
+        Mockito.when(loginService.doLogin(username,password)).thenReturn(true);
+        LoginRequest loginRequest = new LoginRequest();
+        loginRequest.setUser(username);
+        loginRequest.setPassword(password);
+        Response response = loginController.login(loginRequest);
+        Mockito.verify(loginService, Mockito.times(1)).doLogin(username,password);
+        Assert.assertEquals(200, response.getStatus());
+    }
+}

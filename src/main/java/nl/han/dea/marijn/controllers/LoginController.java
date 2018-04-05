@@ -14,13 +14,11 @@ public class LoginController {
     @Inject
     private LoginService loginService;
 
-    @Inject
-    private LoginResponse loginResponse;
-
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(LoginRequest request){
+        LoginResponse loginResponse = new LoginResponse();
         if(loginService.doLogin(request.getUser(), request.getPassword())){
             loginResponse.setUser(loginService.getUserName());
             loginResponse.setToken(loginService.getToken());

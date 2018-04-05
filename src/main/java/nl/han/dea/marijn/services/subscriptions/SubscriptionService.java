@@ -4,7 +4,6 @@ import nl.han.dea.marijn.database.models.ActiveSubscription;
 import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
-import nl.han.dea.marijn.dtos.subscription.subscription.GetSubscriptionResponse;
 
 import java.util.List;
 
