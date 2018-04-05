@@ -7,20 +7,24 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionTest.java" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/SubscriptionServiceTest.java" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04b81ac8-c6fc-4da6-8200-873a8adb58ed" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/SubscriptionServiceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/nl/han/dea/marijn/services/LoginServiceTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/nl/han/dea/marijn/services/SubscriptionServiceTest.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Beroepsproduct.iml" afterPath="$PROJECT_DIR$/Beroepsproduct.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionService.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/controllers/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java" />
       <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/database/config/JDBC.class" afterPath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/database/config/JDBC.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/controllers/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/login/LoginServiceREST.class" afterPath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/login/LoginServiceREST.class" />
+      <change beforePath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.class" afterPath="$PROJECT_DIR$/target/Beroepsproduct/WEB-INF/classes/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/database/config/JDBC.class" afterPath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/database/config/JDBC.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/login/LoginServiceREST.class" afterPath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/login/LoginServiceREST.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.class" afterPath="$PROJECT_DIR$/target/classes/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,22 +52,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SubscriptionsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionsTest.java">
+      <file leaf-file-name="LoginServiceREST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding>
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
+      <file leaf-file-name="LoginServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="203">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubscriptionServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/SubscriptionServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/Subscriptions/Subscription.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ac1a4de3-6dc8-494b-9371-b122e393dd6b/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/Subscriptions/SubscriptionResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceImplementation.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/models/CRUDModel.java" />
@@ -160,9 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/SharedSubscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java" />
         <option value="$PROJECT_DIR$/src/main/resources.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/users/UserServiceREST.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/MockitoJUnitRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -171,10 +187,15 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/Subscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionService.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionTest.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceRESTTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java" />
+        <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/SubscriptionServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java" />
+        <option value="$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceTest.java" />
       </list>
     </option>
   </component>
@@ -290,7 +311,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marijn" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marijn" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marijn" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="token" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="product" type="b2602c69:ProjectViewProjectNode" />
@@ -320,6 +361,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="marijn" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="marijn" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,18 +459,68 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="org.javalite:activejdbc-instrumentation:1.4.13:instrument" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginServiceRESTTest.doEmptyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="nl.han.dea.marijn.controllers.*" />
+          <option name="PATTERN" value="nl.han.dea.marijn.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Beroepsproduct" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.controllers.LoginTest" />
+      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.services" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.services.LoginServiceRESTTest" />
+      <option name="METHOD_NAME" value="doEmptyLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LoginServiceRESTTest.doLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nl.han.dea.marijn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Beroepsproduct" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.services" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.services.LoginServiceRESTTest" />
+      <option name="METHOD_NAME" value="doLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LoginServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nl.han.dea.marijn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Beroepsproduct" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.services" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.services.LoginServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -435,19 +534,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoginTest.successLogin200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginServiceTest.doLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="nl.han.dea.marijn.controllers.*" />
+          <option name="PATTERN" value="nl.han.dea.marijn.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Beroepsproduct" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.controllers.LoginTest" />
-      <option name="METHOD_NAME" value="successLogin200" />
+      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.services" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.services.LoginServiceTest" />
+      <option name="METHOD_NAME" value="doLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -460,69 +559,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SubscriptionTest.testGetSingleAbonnement200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionServiceTest.totalAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="nl.han.dea.marijn.controllers.*" />
+          <option name="PATTERN" value="nl.han.dea.marijn.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Beroepsproduct" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.controllers.SubscriptionTest" />
-      <option name="METHOD_NAME" value="testGetSingleAbonnement200" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SubscriptionsTest.testGetAllAbonnement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="nl.han.dea.marijn.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Beroepsproduct" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.controllers.SubscriptionsTest" />
-      <option name="METHOD_NAME" value="testGetAllAbonnement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserTest.getAllUsersTest200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="nl.han.dea.marijn.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Beroepsproduct" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.controllers.UserTest" />
-      <option name="METHOD_NAME" value="getAllUsersTest200" />
+      <option name="PACKAGE_NAME" value="nl.han.dea.marijn.services" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.dea.marijn.services.SubscriptionServiceTest" />
+      <option name="METHOD_NAME" value="totalAmountTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -745,19 +794,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.BeroepsproductLocal" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest.successLogin200" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SubscriptionTest.testGetSingleAbonnement200" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SubscriptionsTest.testGetAllAbonnement" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.getAllUsersTest200" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginServiceRESTTest.doLoginTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginServiceRESTTest.doEmptyLogin" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SubscriptionServiceTest.totalAmountTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginServiceTest.doLoginTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LoginServiceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.getAllUsersTest200" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SubscriptionsTest.testGetAllAbonnement" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SubscriptionTest.testGetSingleAbonnement200" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest.successLogin200" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginServiceTest.doLoginTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SubscriptionServiceTest.totalAmountTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginServiceRESTTest.doEmptyLogin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginServiceRESTTest.doLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -805,44 +854,44 @@
       <workItem from="1522879438196" duration="237000" />
       <workItem from="1522879735267" duration="780000" />
       <workItem from="1522911429614" duration="149000" />
-      <workItem from="1522911658659" duration="3817000" />
+      <workItem from="1522911658659" duration="7879000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_successLogin200 - 2018.04.03 at 14h 57m 35s.xml">
-      <configuration name="LoginTest.successLogin200" configurationId="JUnit" />
+    <history-entry file="LoginServiceTest - 2018.04.05 at 11h 35m 43s.xml">
+      <configuration name="LoginServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_successLogin200 - 2018.04.03 at 14h 58m 04s.xml">
-      <configuration name="LoginTest.successLogin200" configurationId="JUnit" />
+    <history-entry file="LoginServiceTest - 2018.04.05 at 11h 38m 25s.xml">
+      <configuration name="LoginServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriptionTest_testGetSingleAbonnement200 - 2018.04.03 at 15h 38m 00s.xml">
-      <configuration name="SubscriptionTest.testGetSingleAbonnement200" configurationId="JUnit" />
+    <history-entry file="LoginServiceTest_doLoginTest - 2018.04.05 at 11h 34m 40s.xml">
+      <configuration name="LoginServiceTest.doLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriptionTest_testGetSingleAbonnement200 - 2018.04.03 at 15h 38m 49s.xml">
-      <configuration name="SubscriptionTest.testGetSingleAbonnement200" configurationId="JUnit" />
+    <history-entry file="LoginServiceTest_doLoginTest - 2018.04.05 at 11h 38m 57s.xml">
+      <configuration name="LoginServiceTest.doLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriptionTest_testGetSingleAbonnement200 - 2018.04.03 at 15h 40m 41s.xml">
-      <configuration name="SubscriptionTest.testGetSingleAbonnement200" configurationId="JUnit" />
+    <history-entry file="LoginServiceTest_doLoginTest - 2018.04.05 at 11h 40m 14s.xml">
+      <configuration name="LoginServiceTest.doLoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriptionTest_testGetSingleAbonnement200 - 2018.04.03 at 15h 41m 16s.xml">
-      <configuration name="SubscriptionTest.testGetSingleAbonnement200" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceTest_totalAmountTest - 2018.04.05 at 11h 21m 32s.xml">
+      <configuration name="SubscriptionServiceTest.totalAmountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriptionsTest_testGetAllAbonnement - 2018.04.03 at 16h 08m 06s.xml">
-      <configuration name="SubscriptionsTest.testGetAllAbonnement" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceTest_totalAmountTest - 2018.04.05 at 11h 22m 51s.xml">
+      <configuration name="SubscriptionServiceTest.totalAmountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_getAllUsersTest200 - 2018.04.03 at 16h 31m 26s.xml">
-      <configuration name="UserTest.getAllUsersTest200" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceTest_totalAmountTest - 2018.04.05 at 11h 26m 35s.xml">
+      <configuration name="SubscriptionServiceTest.totalAmountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_getAllUsersTest200 - 2018.04.03 at 16h 35m 56s.xml">
-      <configuration name="UserTest.getAllUsersTest200" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceTest_totalAmountTest - 2018.04.05 at 11h 27m 37s.xml">
+      <configuration name="SubscriptionServiceTest.totalAmountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_getAllUsersTest200 - 2018.04.03 at 16h 36m 34s.xml">
-      <configuration name="UserTest.getAllUsersTest200" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceTest_totalAmountTest - 2018.04.05 at 11h 28m 44s.xml">
+      <configuration name="SubscriptionServiceTest.totalAmountTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144217000" />
+    <option name="totallyTimeSpent" value="148279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,44 +905,83 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72087747" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72087747" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.087171055" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9130106" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33552632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7138158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47697368" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7284418" sideWeight="0.48747912" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40953946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47697368" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44780636" sideWeight="0.48747912" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61279464" sideWeight="0.51252085" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49177632" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49177632" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72087747" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.087171055" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9130106" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33552632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40953946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47697368" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44780636" sideWeight="0.48747912" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61279464" sideWeight="0.51252085" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -921,43 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/enums/Verdubbeling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/subscription/ActiveSubscription.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/subscription/subscriptionslist/ListedActiveSubscriptionResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/subscription/subscription/GetSubscriptionResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="233" column="17" lean-forward="false" selection-start-line="233" selection-start-column="17" selection-end-line="233" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/subscription/subscriptionslist/ListedSubscriptionResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/subscription/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/user/request/ShareRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1086,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/InjectMocks.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1104,13 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="52" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1139,13 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1214,26 +1244,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/controllers.plantuml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1246,19 +1260,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/dtos/login/LoginResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar!/org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceRESTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/javalite/activejdbc/2.0/activejdbc-2.0.jar!/org/javalite/activejdbc/Base.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/config/JDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/subscriptions/SubscriptionServiceREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+          <folding>
+            <element signature="e#754#755#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#3648#3649#0" expanded="false" />
+            <element signature="e#3680#3681#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/database/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/controllers/SubscriptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/SubscriptionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dea/marijn/services/login/LoginServiceREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/nl/han/dea/marijn/services/LoginServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

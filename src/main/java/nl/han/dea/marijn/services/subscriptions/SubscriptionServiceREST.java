@@ -8,10 +8,12 @@ import nl.han.dea.marijn.database.models.Subscription;
 import nl.han.dea.marijn.database.models.User;
 import nl.han.dea.marijn.dtos.subscription.subscription.AddMySubscriptionRequest;
 
+import javax.inject.Inject;
 import java.util.List;
 
 public class SubscriptionServiceREST implements SubscriptionService {
 
+    @Inject
     private User user;
 
     public boolean isValidUser(String token) {
@@ -32,7 +34,6 @@ public class SubscriptionServiceREST implements SubscriptionService {
 
     public double calculateTotalAmount() {
         JDBC.start();
-        System.out.println(user);
         double amount = user.calculateTotalAmount();
         JDBC.stop();
         return amount;
@@ -103,5 +104,9 @@ public class SubscriptionServiceREST implements SubscriptionService {
         User user = User.findById(userId);
         JDBC.stop();
         return user;
+    }
+
+    public void setUser(User user){
+        this.user = user;
     }
 }

@@ -21,10 +21,6 @@ public class JDBC {
         String url      = props.getProperty("jdbc.url");
         String username = props.getProperty("jdbc.username");
         String password = props.getProperty("jdbc.password");
-/*        System.out.println(driver);
-        System.out.println(url);
-        System.out.println(username);
-        System.out.println(password);*/
         Base.open(driver, url, username, password);
     }
 

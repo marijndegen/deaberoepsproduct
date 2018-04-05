@@ -40,4 +40,8 @@ public class LoginServiceREST implements LoginService {
     public String getToken(){
         return user.get("token").toString();
     }
+
+    public void setUser(User user){
+        this.user = user;
+    }
 }
